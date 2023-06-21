@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  *_islower - show 1 if input is a letter, show 0 if otherwise
+  *_isalpha - checks if a character is an alphabetic letter
   *
   *@c: character to check
   *
