@@ -11,10 +11,11 @@
 void print_numbers(void)
 {
 	int x;
+	char numbers[] = "0123456789$";
 
-	for (x = 0; x <= 9; x++)
+	for (x = 0; x < 11; x++)
 	{
-		_putchar(x + '0');
+		_putchar(numbers[x]);
 	}
-		_putchar('\n');
+	_putchar('\n');
 }
