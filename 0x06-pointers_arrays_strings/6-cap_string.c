@@ -30,6 +30,10 @@ char *cap_string(char *str)
 			str[i] = toupper(str[i]);
 			capitalizedNext = 0;
 		}
+		else
+		{
+			str[i] = tolower(str[i]);
+		}
 
 		i++;
 	}
