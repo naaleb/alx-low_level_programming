@@ -3,6 +3,7 @@
 /**
  * is_prime_number - Checks if a number is prime.
  * @n: The number to be checked.
+ * @@divisor: The current divisor to check divisibility
  *
  * Return: 1 if the number is prime, 0 otherwise.
  */
