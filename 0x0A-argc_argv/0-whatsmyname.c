@@ -5,7 +5,7 @@
   *@argv: arry of arguments
   *Return: Always 0
   */
-int main(char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	printf("%s\n", *argv);
 
