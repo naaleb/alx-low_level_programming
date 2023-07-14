@@ -3,13 +3,16 @@
 #include <string.h>
 
 /**
-  * string_nconcat - concatenates two strings
-  * @s1: First string
-  * @s2: Scond string
-  * @n: Number of s2 bytes to concatenate
-  *
-  * return:Pointer to newly allocated memory containing concatenated string
-  */
+ * string_nconcat - Concatenates two strings
+ * @s1: First string
+ * @s2: Second string
+ * @n: Number of s2 bytes to concatenate
+ *
+ * Return: Pointer to newly allocated memory containing concatenated string
+ *         If allocation fails, returns NULL
+ *         If n is greater or equal to length of s2, use the entire string s2
+ *         If NULL is passed, treats it as an empty string
+ */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
