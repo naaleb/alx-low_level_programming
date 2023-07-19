@@ -2,12 +2,12 @@
 #define DOG_H
 
 /**
-  *dog.h
-  *dog attribute include name, age and owner
-  *struct dog - representing a dog with it attributes
+  *struct dog - A dog attributes
   *@name: dog name
   *@age: doge age
   *@owner: dog owner
+  *
+  *Description: short discription
   */
 
 struct dog
