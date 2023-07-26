@@ -3,7 +3,6 @@
 /**
  * is_prime_number - Checks if a number is prime.
  * @n: The number to be checked.
- * @@divisor: The current divisor to check divisibility
  *
  * Return: 1 if the number is prime, 0 otherwise.
  */
@@ -20,7 +19,7 @@ int is_prime_number(int n)
 /**
  * check_prime - Helper function to recursively check for prime.
  * @n: The number to be checked.
- * @divisor: The current divisor to check divisibility.
+ * @divisor: The divisor to check if @n is divisible
  *
  * Return: 1 if the number is prime, 0 otherwise.
  */
