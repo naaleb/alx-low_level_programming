@@ -4,6 +4,7 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include <stdbool.h>
 
 /**
   * 0x0B. C - malloc, free
@@ -15,4 +16,5 @@ char *str_concat(char *s1, char *s2);
 int **alloc_grid(int width, int height);
 void free_grid(int **grid, int height);
 char *argstostr(int ac, char **av);
+char **strtow(char *str);
 #endif
