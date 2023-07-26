@@ -1,5 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
+
+#include <stddef.h>
+#include <stdlib.h>
+#include <stdio.h>
+
 /**
   * 0x0B. C - malloc, free
   */
