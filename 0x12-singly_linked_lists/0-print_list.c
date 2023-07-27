@@ -6,6 +6,11 @@
  * @h: pointer to the list_t list
  *
  * Return: Number of nodes printed
+ *
+ * Description:
+ * Prints contents of each node in a linked list
+ * Prints node length and string content.
+ * Displays "[0] (nil)" if the string is empty.
  */
 size_t print_list(const list_t *h)
 {
